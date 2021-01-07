@@ -67,5 +67,4 @@ function dateManage(dateArg)
   let date =dateArg.getDate();
   let day = days[dateArg.getDay()];
   return `${date} ${month} (${day}), ${year}`;
-
 }
